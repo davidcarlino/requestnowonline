@@ -2,31 +2,34 @@ nav {
     background-color: #000; /* Black background color */
     color: #fff; /* White text color */
     padding: 10px; /* Adjust padding as needed */
-  }
-  
-  ul {
-    list-style: none; /* Remove default list styles */
-    margin: 0;
-    padding: 0;
     display: flex;
-    justify-content: space-around; /* Adjust as needed */
-  }
+    justify-content: flex-start;
+    align-items: center;
+}
   
-  li {
-    display: inline;
-  }
+ul {
+  list-style: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+}
   
-  a {
-    text-decoration: none;
-    color: #fff; /* White text color for links */
-    padding: 8px 16px; /* Adjust padding as needed */
-    border-radius: 5px; /* Optional: Add rounded corners to links */
-  }
+li {
+  display: inline;
+}
   
-  a:hover {
-    background-color: #555; /* Change background color on hover */
-  }
+a {
+  text-decoration: none;
+  color: #fff; /* White text color for links */
+  padding: 8px 16px; /* Adjust padding as needed */
+}
+  
+a:hover {
+  color: #848484; /* Change background color on hover */
+}
 
-  img {
-    max-width: 40px;
-  }
+img {
+  max-width: 40px;
+  display: inline;
+}
