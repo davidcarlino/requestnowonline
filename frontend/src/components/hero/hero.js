@@ -15,7 +15,7 @@ const HeroImage = () => {
       />
       <div className="hero-text">
         <h1>Request Music in Real-Time.</h1>
-        <p>Scan The QR Codes at your eevent or enter a Code.</p>
+        <p>Scan The QR Codes at your event or enter a Code.</p>
 
         <div className='button_container'>
             <LoadingButton text="Scan QR Code"/>
