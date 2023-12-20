@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import "./buttonnavbar.css";
-import buttonnavbar from '../buttons/buttonnavbar';
+import buttonnavbar from './buttonnavbar';
 
 
 const LoadingButton = (props) => {

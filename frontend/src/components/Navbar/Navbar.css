@@ -1,39 +1,101 @@
-nav {
-    background-color: #000; /* Black background color */
-    color: #fff; /* White text color */
-    padding: 10px; /* Adjust padding as needed */
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-  
-ul {
-  list-style: none; /* Remove default list styles */
-  margin: 0;
-  padding: 0;
+.navcontainer {
   display: flex;
-  justify-content: space-around; /* Adjust as needed */
+  justify-content: space-between;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  align-content: right;
+  PADDING-INLINE-START: 56PX;
+  margin: 0 auto;
+
 }
-  
+
+.navlogocenter {
+  align-self:  center;
+  color: inherit; 
+  align-content: center;
+  margin-top: -16px;
+  margin-bottom: 0 auto;
+  margin-top: 0 auto;
+  margin-top: 0 auto;
+  margin-left: 64px;
+}
+
+nav {
+  background-color: #000; /* Black background color */
+  color: #fff; /* White text color */
+  padding: 10px; /* Adjust padding as needed */
+  overflow: hidden;
+  margin-inline-end: 22px;
+  margin-top: 9px;
+ 
+}
+
+ul {
+list-style: none; /* Remove default list styles */
+margin: 0;
+padding: 0;
+
+justify-content: space-around; /* Adjust as needed */
+}
+
 li {
-  display: inline;
+display: inline;
 }
-  
+
 a {
-  text-decoration: none;
-  color: #fff; /* White text color for links */
-  padding: 8px 16px; /* Adjust padding as needed */
+text-decoration: none;
+color: #fff; /* White text color for links */
+padding: 8px 16px; /* Adjust padding as needed */
 }
-  
+
 a:hover {
-  color: #848484; /* Change background color on hover */
+color: #848484; /* Change background color on hover */
 }
 
 img {
-  max-width: 40px;
-  display: inline;
+max-width: 40px;
+display: inline;
+align-content: left;
+overflow: hidden;
 }
 
-.navbarbuttons {
-  
+
+.navbar-menu {
+  justify-content: space-between;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  align-content: right;
+  overflow: hidden;
+}
+
+.centerlogo {
+  align-self:  center;
+  align-content: center;
+}
+button.menu-button {
+  background-color: #520000;
+  float: right;
+  color: #fff;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button.menu-button:hover {
+  background-color: #830000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+navbar ui-draggable{
+  position: sticky;
 }

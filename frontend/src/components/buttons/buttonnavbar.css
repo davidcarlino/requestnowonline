@@ -5,8 +5,12 @@
     color: #ffffff;
     font-size: 14px;
     background: #620000;
-    padding: 5px 5px 5px 5px;
+    padding: 0px;
+    border: 0px;
+    margin-left: 4px;
     text-decoration: none;
+    padding: 9px 9px 10px 10px;
+
   }
   
   .buttonnavbar:hover {
@@ -17,4 +21,10 @@
     background-image: -o-linear-gradient(top, #3cb0fd, #3cb0fd);
     background-image: linear-gradient(to bottom, #3cb0fd, #3cb0fd);
     text-decoration: none;
+    align-items: right;
+
+  }
+
+  .ms-auto {
+    align-content: right;
   }

@@ -18,8 +18,8 @@ const HeroImage = () => {
         <p>Scan The QR Codes at your event or enter a Code.</p>
 
         <div className='button_container'>
-            <LoadingButton text="Scan QR Code"/>
-            <LoadingButton text="Enter Event PIN"/> 
+        <a href='qr-scan'><LoadingButton text="Scan QR Code"/> </a>
+        <a href='pin'><LoadingButton text="Enter Event PIN"/> </a>
         </div>
       </div>
     </div>
