@@ -1,0 +1,56 @@
+/* HeroImage.css */
+
+.hero-image-container {
+    position: relative;
+    text-align: center;
+    background-color: rgb(0, 0, 0); /* Set the text color */
+  
+  }
+  
+  .hero-image {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    min-width: 100%;
+    background-size: cover;
+    opacity: 40%;
+  }
+
+
+  .hero-text {
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.pinenterholder {
+  margin-top: 53px;
+  padding-top: 12px;
+    padding-left: 5px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.classheader {
+     
+    font-color: rgb(255, 255, 255);
+    align-items: center;
+
+}

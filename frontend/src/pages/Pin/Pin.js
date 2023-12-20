@@ -1,13 +1,12 @@
 import React from "react";
 import './Pin.css'
-import HeroImage from "../../components/hero/hero";
+import Pinhero from "../../components/pin-hero/pin-hero";
 
 const Pin = () => {
     return (
-        <div>
-              
-            <h1>Enter Pin</h1>
-          
+        <div class="classheader"> 
+     
+           <Pinhero></Pinhero>
         </div>
     )
 }
